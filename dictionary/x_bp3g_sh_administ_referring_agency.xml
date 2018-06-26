@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Referring Agency" max_length="40" name="x_bp3g_sh_administ_referring_agency" type="collection">
+        <element label="Address" max_length="400" name="address" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Law Firm" sequence="10" value="Law Firm"/>
+                <element label="Child Protection Agency" sequence="20" value="Child Protection Agency"/>
+                <element label="Police" sequence="30" value="Police"/>
+            </choice>
+        </element>
+    </element>
+</database>

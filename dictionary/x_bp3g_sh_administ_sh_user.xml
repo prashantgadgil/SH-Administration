@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SH User" max_length="40" name="x_bp3g_sh_administ_sh_user" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element choice="1" label="User Type" max_length="40" name="user_type" type="choice">
+            <choice>
+                <element label="Employee" sequence="10" value="Employee"/>
+                <element label="Volunteer" sequence="20" value="Volunteer"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

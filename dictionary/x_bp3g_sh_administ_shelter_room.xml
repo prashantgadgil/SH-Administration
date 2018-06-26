@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Shelter Room" max_length="40" name="x_bp3g_sh_administ_shelter_room" type="collection">
+        <element label="Current Occupancy" max_length="40" name="current_occupancy" type="integer"/>
+        <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Room Number" max_length="40" name="room_number" type="string"/>
+        <element choice="1" label="Room Status" max_length="40" name="room_status" type="choice">
+            <choice>
+                <element label="Partially Occupied" sequence="10" value="Partially Occupied"/>
+                <element label="Vacant" sequence="20" value="Vacant"/>
+                <element label="Fully Occupied" sequence="30" value="Fully Occupied"/>
+            </choice>
+        </element>
+        <element label="Shelter" max_length="32" name="shelter" reference="x_bp3g_sh_administ_shelter" type="reference"/>
+        <index name="index">
+            <element name="shelter"/>
+        </index>
+    </element>
+</database>

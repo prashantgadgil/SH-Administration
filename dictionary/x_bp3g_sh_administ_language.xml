@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Language" max_length="40" name="x_bp3g_sh_administ_language" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Short Name" max_length="40" name="short_name" type="string"/>
+    </element>
+</database>

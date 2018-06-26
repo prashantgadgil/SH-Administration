@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_bp3g_sh_administ_referring_agency" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Law Firm</label>
+            <language>en</language>
+            <name>x_bp3g_sh_administ_referring_agency</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-09 12:00:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdc22592dbaed340e93a9c27db9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-09 12:00:15</sys_updated_on>
+            <value>Law Firm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Child Protection Agency</label>
+            <language>en</language>
+            <name>x_bp3g_sh_administ_referring_agency</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-09 12:00:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7e2ad52dbaed340e93a9c27db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-09 12:00:31</sys_updated_on>
+            <value>Child Protection Agency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Police</label>
+            <language>en</language>
+            <name>x_bp3g_sh_administ_referring_agency</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-09 12:00:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faf22592dbaed340e93a9c27db9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-09 12:00:45</sys_updated_on>
+            <value>Police</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_bp3g_sh_administ_referring_agency</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-09 12:00:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2fd2ed52dbaed340e93a9c27db9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="SH Administration" source="x_bp3g_sh_administ">db64c536dbd2570020b2fa9ebf96199f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SH Administration">db64c536dbd2570020b2fa9ebf96199f</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_sh_administ_referring_agency_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-09 12:00:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

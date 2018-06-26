@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[    <h1 class="title topictitle1">Fiscal calendar</h1>        <div class="body taskbody">                <div class="li step p">                <span class="ph cmd">Align the calendar type to match the fiscal year of your organization. Once                    set, the calendar type cannot be changed for the application. To reset the                    calendar, delete all financial data and rerun all allocations.</span>                <ol class="ol substeps"><li class="li substep">                        <span class="ph cmd">Select a calendar type.</span>                    </li><li class="li substep">                        <span class="ph cmd">Configure fiscal unit and year parameters for the selected                            calendar.</span>                    </li><li class="li substep">                        <span class="ph cmd">Click <span class="ph uicontrol">Generate Calendar</span>.</span>                    </li></ol>            </div>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Generate-fiscal-calendar&amp;version&#61;kingston" target="_blank">Generate a fiscal calendar</a></div></div></div></div>]]></content>
+        <last_sync>2018-06-16 12:28:13</last_sync>
+        <modifier>normal</modifier>
+        <name>generate_fiscal_calendar-normal</name>
+        <page>generate_fiscal_calendar</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-01 12:28:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>358cd433db165b0020b2fa9ebf961902</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>generate_fiscal_calendar-normal</sys_name>
+        <sys_package display_value="SH Administration" source="x_bp3g_sh_administ">db64c536dbd2570020b2fa9ebf96199f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SH Administration">db64c536dbd2570020b2fa9ebf96199f</sys_scope>
+        <sys_update_name>sys_embedded_help_content_358cd433db165b0020b2fa9ebf961902</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-16 12:28:13</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=358cd433db165b0020b2fa9ebf961902"/>
+</record_update>
